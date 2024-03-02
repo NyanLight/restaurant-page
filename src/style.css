@@ -1,7 +1,26 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
     background: fixed linear-gradient(360deg, rgba(231,107,255,1) 28%, rgba(226,199,238,1) 55%, rgba(229,156,245,1) 93%);
     box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100svh;
+}
+
+
+header {
+    padding: 2rem;
 }
 
 nav {
@@ -9,6 +28,7 @@ nav {
     justify-content: center;
     gap: 1rem;
 }
+
 
 button {
     background: blueviolet;
@@ -22,21 +42,61 @@ button {
 
 h1 {
     font-size: 3rem;
+    margin-bottom: 3rem;
 }
 
-img {
+#cafePic {
     height: 48rem;
     width: 64rem;
+    margin-bottom: 1rem;
 }
+
 
 #content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1rem;
+}
+
+.Description {
+    border: 0.2rem solid rgb(160, 20, 118);
+    border-radius: 0.8rem;
+    padding: 1rem;
+}
+
+.foodDescription {
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 span {
     text-align: center;
     width: 64rem;
     font-size: 1.7rem; 
+}
+
+.food {
+    /* height:25rem; */
+    width: 34rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+footer {
+    border-top: 0.2rem dashed rgb(241, 65, 118);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+#github {
+    height: 6rem;
+    width: 6rem;
 }
