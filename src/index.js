@@ -12,3 +12,5 @@ const content = document.getElementById('content');
 homeBtn.addEventListener('click', displayHome);
 aboutBtn.addEventListener('click', displayAbout);
 menuBtn.addEventListener('click', displayMenu);
+
+displayHome();
